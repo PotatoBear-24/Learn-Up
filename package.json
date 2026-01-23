@@ -5,7 +5,7 @@
   "description": "Learn Up - Minimalistic study app with Pomodoro, now with Auth, Explore, and Upload features integrated with Supabase.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node node_modules/vite/bin/vite.js build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.jsx src || true",
     "format": "prettier --write \"src/**/*.{js,jsx,css,md}\""
